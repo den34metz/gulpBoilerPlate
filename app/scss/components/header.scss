@@ -1,0 +1,17 @@
+.header {
+    max-width: 1500px;
+    max-height: 8em;
+    margin: 1em auto;
+    display: grid;
+    grid-template-columns: auto 2fr 1fr;
+    align-items: center;
+
+    img {
+        grid-area: 1;
+        height: 7em;
+    }
+
+    .nav_title {
+        grid-column: 2;
+    }
+}
